@@ -1,0 +1,191 @@
+:root {
+  --primary-color: #4a90e2;
+  --danger-color: #e94f37;
+  --success-color: #50e3c2;
+  --warning-color: #f5a623;
+  --pending-color: #cccccc;
+  --card-background-color: #ffffff;
+  --text-color: #4a4a4a;
+  --border-color: #e1e1e1;
+  --shadow-color: rgba(0, 0, 0, 0.08);
+}
+
+.App-container {
+    max-width: 900px; 
+    margin: 0 auto;
+}
+
+header h1 {
+    color: var(--primary-color);
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: -1px;
+    margin-bottom: 40px;
+}
+
+.task-form {
+    background-color: var(--card-background-color);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px var(--shadow-color);
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.task-form h2 {
+    margin: 0 0 10px 0;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+.task-form input, .task-form textarea, .task-form select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    box-sizing: border-box; 
+}
+
+.task-form input:focus, .task-form textarea:focus, .task-form select:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.2);
+}
+
+.form-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.form-buttons button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.form-buttons button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-buttons button[type="submit"] {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.form-buttons button[type="button"] {
+    background-color: #a0a0a0;
+    color: white;
+}
+
+.task-list h2 {
+    font-weight: 600;
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.task-list ul {
+    list-style: none;
+    padding: 0;
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.task-item {
+    background: var(--card-background-color);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 15px var(--shadow-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.task-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.task-info h3 {
+    margin: 0 0 10px 0;
+    word-break: break-word; 
+}
+
+.task-info p {
+    margin: 0 0 15px 0;
+    color: #777;
+    flex-grow: 1; 
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 5px 12px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+}
+
+.status-Concluída { background-color: var(--success-color); }
+.status-Em-Andamento { background-color: var(--warning-color); }
+.status-Pendente {
+    background-color: var(--pending-color);
+    color: #555;
+}
+
+.task-actions {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    align-self: flex-end; 
+}
+
+.task-actions button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px; 
+    padding: 5px;
+    color: #a0a0a0;
+    transition: color 0.2s;
+}
+
+.task-actions .edit-btn:hover { color: var(--primary-color); }
+.task-actions .delete-btn:hover { color: var(--danger-color); }
+
+.error-message {
+    text-align: center;
+    padding: 15px;
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+.empty-state {
+    text-align: center;
+    padding: 40px;
+    color: #888;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border-color);
+    color: #aaa;
+}
