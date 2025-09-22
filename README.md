@@ -10,10 +10,10 @@ O sistema permite que o usuário crie, visualize, atualize o status e exclua tar
 
 ## ✨ Funcionalidades
 
-  ***Criação de Tarefas:** Adicionar novas tarefas com título, descrição e status.
-  ***Listagem de Tarefas:** Visualizar todas as tarefas cadastradas em um layout de cards.
-  ***Atualização de Tarefas:** Editar as informações de uma tarefa existente ou alterar seu status (Pendente, Em Andamento, Concluída).
-  ***Exclusão de Tarefas:** Remover tarefas que não são mais necessárias.
+  * **Criação de Tarefas:** Adicionar novas tarefas com título, descrição e status.
+  * **Listagem de Tarefas:** Visualizar todas as tarefas cadastradas em um layout de cards.
+  * **Atualização de Tarefas:** Editar as informações de uma tarefa existente ou alterar seu status (Pendente, Em Andamento, Concluída).
+  * **Exclusão de Tarefas:** Remover tarefas que não são mais necessárias.
 
 ## 🚀 Tecnologias Utilizadas
 
