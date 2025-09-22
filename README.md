@@ -21,20 +21,20 @@ Este projeto foi construído com uma arquitetura de pastas organizada, separando
 
 #### **Frontend**
 
-  * [cite\_start]**React:** Biblioteca para construção da interface de usuário[cite: 2, 9].
-  * [cite\_start]**Axios:** Cliente HTTP para comunicação com a API do backend[cite: 15].
+  * **React:** Biblioteca para construção da interface de usuário.
+  * **Axios:** Cliente HTTP para comunicação com a API do backend.
   * **React Icons:** Biblioteca de ícones para melhorar a usabilidade da interface.
 
 #### **Backend**
 
-  * [cite\_start]**Node.js:** Ambiente de execução para o JavaScript no servidor[cite: 2, 18].
-  * [cite\_start]**Express:** Framework para a construção da API RESTful[cite: 2, 18].
-  * [cite\_start]**CORS:** Middleware para permitir requisições do frontend[cite: 25].
-  * [cite\_start]**MySQL2:** Driver para a conexão com o banco de dados MySQL[cite: 2, 27].
+  * **Node.js:** Ambiente de execução para o JavaScript no servidor.
+  * **Express:** Framework para a construção da API RESTful.
+  * **CORS:** Middleware para permitir requisições do frontend.
+  * **MySQL2:** Driver para a conexão com o banco de dados MySQL.
 
 #### **Banco de Dados**
 
-  * [cite\_start]**MySQL:** Sistema de gerenciamento de banco de dados para armazenamento das tarefas[cite: 2, 27].
+  * **MySQL:** Sistema de gerenciamento de banco de dados para armazenamento das tarefas.
 
 ## 📋 Pré-requisitos
 
@@ -46,7 +46,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 
 ## ⚙️ Como Rodar o Projeto
 
-Siga os passos abaixo para executar a aplicação localmente. [cite\_start]O sistema deve funcionar corretamente após seguir estas instruções[cite: 34, 35, 39].
+Siga os passos abaixo para executar a aplicação localmente. O sistema deve funcionar corretamente após seguir estas instruções.
 
 **1. Clone o repositório:**
 
