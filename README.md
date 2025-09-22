@@ -58,7 +58,7 @@ cd nome-da-pasta-do-projeto
 **2. Configure o Banco de Dados:**
 
   * Abra seu cliente MySQL e crie um novo banco de dados.
-  * [cite\_start]Importe o arquivo `.sql` fornecido para criar a tabela e inserir os dados iniciais[cite: 31, 43].
+  * Importe o arquivo `.sql` fornecido para criar a tabela e inserir os dados iniciais.
 
 **3. Configure e inicie o Backend:**
 
@@ -88,6 +88,4 @@ cd nome-da-pasta-do-projeto
     ```
   * O frontend iniciará automaticamente em seu navegador no endereço `http://localhost:3000`.
 
-[cite\_start]**Pronto\!** A aplicação deve estar totalmente funcional[cite: 35].
-
-(Termine de copiar aqui)
+**Pronto\!** Com isso feito a aplicação estara funcionando.
